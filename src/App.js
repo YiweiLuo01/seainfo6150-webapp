@@ -5,24 +5,11 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-
       <article>
-        
       <header>
-      <title>The Statue of Liberty's torch heads to new museum</title>
-      author = by Kate Farley (<a href = "kate.farley@nytimes.com">kate.farley@nytimes.com</a>)
-      date = {'November 22, 2018'}
+        <h4>The Statue of Liberty's torch heads to new museum</h4>
+        <p>by Kate Farley(<a href = "kate.farley@nytimes.com">kate.farley@nytimes.com</a>)<br/>
+        <time dateTime='2018-11-22'>November 22, 2018</time></p>
       </header>
       
       <p>The Statue of Liberty's original torch is getting a new home.</p>
@@ -34,7 +21,7 @@ function App() {
       <p><q>Although it is not one of the most difficult things we have ever moved,</q> says Douglas Phelps, who oversaw the relocation of the torch, <q>it is certainly the most important.</q></p>
       
       <section>
-      <head>The history of the Statue of Liberty</head>
+      <h4>The history of the Statue of Liberty</h4>
       
       <p>Not only is the Statue of Liberty the symbol of New York City, she is also a UNESCO World Heritage site under the designation of <em>Outstanding Universal Value</em>.</p>
       
@@ -44,7 +31,7 @@ function App() {
 
       <p>Since then, the statue has served as a symbol of hope and possibility for many people who entered the United States as immigrants via neighboring Ellis Island.</p>
       
-      <p><q>The original torch is a beautiful object of art and exemplifies the American ideals of freedom and democracy,</q>says John Piltzecker, superintendent of the Statue of Liberty National Monument. That symbolic spirit inspired the decision to inscribe these famous lines on the statue's pedestal:<blockquote>Give me your tired, your poor / Your huddled masses yearning to breathe free.</blockquote></p>
+      <p><q>The original torch is a beautiful object of art and exemplifies the American ideals of freedom and democracy,</q>says John Piltzecker, superintendent of the Statue of Liberty National Monument. That symbolic spirit inspired the decision to inscribe these famous lines on the statue's pedestal:<q>Give me your tired, your poor / Your huddled masses yearning to breathe free.</q></p>
       
       <p>In<time datetime= "2017">2017</time>, nearly 4.5 million people visited Liberty Island.</p>
 
@@ -54,7 +41,7 @@ function App() {
       </section>
       
       <section>
-        <head>Some facts about the Statue of Liberty</head>
+        <h4>Some facts about the Statue of Liberty</h4>
 
         <ul>
           <li>Total overall height from the base of the pedestal foundation to the tip of the torch is <strong>305 feet, 6 inches</strong></li>
