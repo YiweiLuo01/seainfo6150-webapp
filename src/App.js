@@ -11,7 +11,6 @@ function App() {
         <p>by Kate Farley(<a href = "kate.farley@nytimes.com">kate.farley@nytimes.com</a>)<br/>
         <time dateTime='2018-11-22'>November 22, 2018</time></p>
       </header>
-      
       <p>The Statue of Liberty's original torch is getting a new home.</p>
 
       <p>Made of copper and gold so that it would shine bright, the first torch took a beating from the weather and was replaced by a replica in  <time dateTime='1984'>1984</time> It's been stored in the statue's pedestal ever since.</p>
