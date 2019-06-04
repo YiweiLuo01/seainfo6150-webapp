@@ -1,10 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Article from './Article';
 
 const App = ({ article }) => {
   return (
     <div className="App">
-      
+      <Article title={article.title} shortText={article.shortText} pubDate={article.pubDate} author={article.author}/>
     </div>
   );
 }
