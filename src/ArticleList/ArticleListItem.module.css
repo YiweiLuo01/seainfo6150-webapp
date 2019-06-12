@@ -1,0 +1,31 @@
+.listClass{
+    background-color: #ecebeb;
+    border: 2px solid rgb(214, 38, 38);
+    margin: 20px ;
+    padding: 2rem;
+    list-style: none;
+}
+
+.title{
+    font-size: 40px;
+    font-weight: bold;
+    color:  rgb(206, 21, 21);
+}
+.shortText{
+    color: #424040;
+    font-size: 26px;
+}
+
+.listAuthor{
+    color: #424040;
+    font-size: 25px;
+    margin-bottom: 2px;
+    text-align: right;
+}
+
+.listDate{
+    color: #333333;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: right;
+}
