@@ -1,5 +1,8 @@
 import React from 'react';
+<<<<<<< HEAD
 
+=======
+>>>>>>> aa738c852070895e1752c7e5c9618630cdbc0134
 import JSConcepts from './component-examples/JSConcepts.js';
 import HelloUser from './component-examples/HelloUser.js';
 import AddingMachine from './component-examples/AddingMachine.js';
