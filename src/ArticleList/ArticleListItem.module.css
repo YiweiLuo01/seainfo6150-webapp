@@ -1,42 +1,40 @@
 .listClass{
-    display: flex;
     background-color: #ecebeb;
-    border: 2px solid rgb(182, 15, 15);
+    border: 2px solid  rgb(201, 20, 20);
     margin: 20px ;
-    padding: 2rem;
+    padding:20px;
+    padding-bottom:2px;
     list-style: none;
-    background-image: linear-gradient(90deg, pink, white 12%);
-    border-radius: 20px;
+    background-image: linear-gradient(90deg, pink, white 8%);
     box-shadow: 10px 10px 10px gray;
+    display: flex;
+    flex-direction: column;
 }
 
 .articleImage{
-    width:  30%;
+    width:  83%;
 }
 
 .articleWords{
-    width: 70%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .title{
-    font-size: 40px;
+    font-size: 25px;
     font-weight: bold;
-    color:  rgb(206, 21, 21);
+    color:  rgb(201, 20, 20);
 }
 .shortText{
     color: #424040;
-    font-size: 26px;
 }
 
 .listAuthor{
     color: #424040;
-    font-size: 25px;
-    margin-bottom: 2px;
-    text-align: right;
 }
 
 .listDate{
     color: #333333;
-    font-size: 22px;
     font-weight: bold;
-    text-align: right;
 }

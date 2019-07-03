@@ -1,0 +1,16 @@
+.header{
+    background-color: rgb(201, 20, 20);
+    display: flex;
+    height: 250px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.headerWords{
+    color:rgb(255, 255, 255);
+    
+}
+.dateTime{
+    color:rgb(255, 255, 255);
+}

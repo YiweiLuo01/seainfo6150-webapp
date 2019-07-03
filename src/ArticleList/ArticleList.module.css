@@ -1,8 +1,7 @@
 .page{
-    background-color: rgb(189, 189, 189);
-    margin: 18px;
-    padding: 26px;
-    border: 2px dashed  rgb(58, 55, 55);
-    border-radius: 20px;
-    box-shadow: 10px 10px 10px gray;
+    background-color: rgb(161, 159, 159);
+    display: grid;
+    grid-template-columns:31% 31% 31%;
+    grid-column-gap: 25px;
+    justify-items: center;
 }

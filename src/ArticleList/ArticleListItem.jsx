@@ -15,8 +15,9 @@ class ArticleListItem extends React.Component {
                             <h1 className={listStyle.title}>{this.props.title}</h1>
                         </header>
                         <section className={listStyle.shortText}>{this.props.shortText}</section>
-                        <p className={listStyle.listAuthor}><i>By:{this.props.author}</i></p>
+                        <p className={listStyle.listAuthor}><i>By:{this.props.author}</i>
                         <div className={listStyle.listDate}><time>{this.props.date}</time> </div>
+                        </p>
                     </div>
                 </li>
         )
