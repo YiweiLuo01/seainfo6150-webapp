@@ -1,7 +1,31 @@
+
 .articleImage{
     height: 70%;
     width: 70%;
     border: 10px solid  rgb(192, 16, 16);
     border-radius: 50%;
     box-shadow: 10px 12px 19px grey;
+}
+
+
+
+@media all and (max-width: 800px){
+    .articleImage{
+        height: 80%;
+        width: 80%;
+    }
+}
+@media all and (max-width: 530px){
+    .articleImage{
+        height: 85%;
+        width: 85%;
+    }
+}
+   
+@media all and (max-width: 375px){
+    .articleImage{
+        height: 90%;
+        width: 90%;
+    }
+    
 }

@@ -5,6 +5,7 @@
     flex-flow: row wrap;
     justify-content: flex-start;
     padding: 30px;
+    min-width: 240px;
 }
 
 .name{

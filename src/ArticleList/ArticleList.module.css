@@ -1,7 +1,25 @@
 .page{
     background-color: rgb(161, 159, 159);
     display: grid;
-    grid-template-columns:31% 31% 31%;
-    grid-column-gap: 25px;
-    justify-items: center;
+    grid-template-columns:24% 24% 24% 24%;
+    min-width: 300px;
+    /* padding: 0; */
+    /* grid-column-gap: 25px; */
+    /* justify-items: center; */
+} 
+
+@media all and (max-width: 900px){
+    .page{grid-template-columns:1fr 1fr 1fr;
+        padding: 0;}
 }
+@media all and (max-width: 633px){
+    .page{grid-template-columns:1fr 1fr;
+        padding: 0; }
+}
+
+@media all and (max-width: 441px){
+    .page{grid-template-columns:1fr;
+        padding: 0; }
+}
+
+
